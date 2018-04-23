@@ -71,6 +71,40 @@ p {
         font-weight: 300;
     }
 }
+@media (min-width: 1600px){
+h5{
+    color: #41464b;
+    text-align: center
+    font-weight: 700;
+    margin: 20px auto 10px auto;
+    padding-bottom: 20px;
+    font-size: 41px;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+@media (max-width: 767px){
+  h5{
+      color: #41464b;
+      text-align: center
+      font-weight: 700;
+      margin: 20px auto 10px auto;
+      padding-bottom: 20px;
+      font-size: 41px;
+      font-family: 'Roboto', sans-serif;
+    }
+}
+@media (max-width: 420px){
+  h5{
+      color: #41464b;
+      text-align: center
+      font-weight: 700;
+      margin: 20px auto 10px auto;
+      padding-bottom: 20px;
+      font-size: 41px;
+      font-family: 'Roboto', sans-serif;
+    }
+}
+
 
 /*====================================================
                        NAVIGATION
@@ -835,7 +869,7 @@ p {
 ======================================================*/
 
     .title-bar {
-        padding: 100px 0;
+        padding-top: 100px;
     }
 
     .title-bar h1 {
@@ -1050,7 +1084,7 @@ p {
 ======================================================*/
 
     .about .about-content-box {
-        padding: 80px 20px;
+        padding: 28px 20px;
         text-align: center;
     }
 
@@ -1451,6 +1485,8 @@ p {
             flex: 0 0 80%;
             max-width: 80%!important;
             margin: auto;
+            padding-bottom: 7px;
+            padding-top: 33px;
         }
     }
 
@@ -1460,6 +1496,8 @@ p {
             flex: 0 0 95%;
             max-width: 95%!important;
             margin: auto;
+            padding-bottom: 7px;
+            padding-top: 33px;
         }
     }
 
